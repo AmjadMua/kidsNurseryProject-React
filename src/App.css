@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@700&display=swap');
+
+body{
+  position: relative;
+  min-height: 90vh;
+}
+
+                                 /************* Footer ***********/
+.footer{
+  height: 150px;
+  background-color: rgba(34, 34, 37, 0.904);
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+                                 /*************  Main Page  ***********/
+
+.btn-login{
+  height: 40px;
+   width: 100px;
+  margin-top: 10px;
+ background-color:#ff9232a2;
+ color: rgb(255, 255, 255);
+ border: none;
+ border-radius: 15px;
+}
+
+.first-section {
+  height: 660px;
+  background-color: rgba(43, 43, 44, 0.671);
+}
+.first-section .btn-explore{
+  height: 40px;
+  width: 130px;
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color:#ff9232a2;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+}
+.headOfSection{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 4em;
+margin-left: 30px;
+color: #ffffff;
+
+}
+.second-section{
+  height: 760px;
+  background-color: #df7518c4;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr ;
+ gap: 120px;
+ padding: 5%;
+ padding-left: 8%;
+ text-align: center;
+ padding-bottom: 90px;
+}
+.second-section .features{
+  font-size: 4em;
+  margin-right: 50px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.third-section{
+  height: 600px;
+  background-color: #f3ebe9;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+/* ----------------------------------- Login Page ------------------------------- */
+
+.loginPage{
+    background-color: rgba(22, 61, 30, 0.664);
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+} 
+
+.loginbtn {
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: #fa8722;
+}
+
+
+.usersOption {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+
+/* ----------------------------- Parent Home -----------------------  */
+.parentHeader{
+  background-color: rgba(83, 57, 18, 0.836);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.tabs{
+  min-height: 50vh;
+}
+
+
+/* ----------------------- one kid Section ---------------    */
+.onekidsec{
+ min-height: 100vh;
+ background-color: #7EB27F;
+ padding-bottom: 50px;
+
+}
+
+.oneActivityPage{
+  min-height: 100vh;
+  background-color: rgb(44, 67, 68);
+  padding-bottom: 50px;
+}
+
+/* --------------------------------------- Teacher ------------------------  */
+.teacherHeader{
+  background-color: rgba(65, 126, 73, 0.836);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+.vl {
+  border-left: 6px solid rgba(69, 83, 71, 0.479);
+  height: 60vh;
+}
+.oneLesssonPage{
+  min-height: 100vh;
+  background-color: rgb(63, 88, 68);
+  padding-bottom: 50px;
+}
